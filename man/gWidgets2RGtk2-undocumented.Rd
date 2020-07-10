@@ -64,18 +64,21 @@
 
 .docstub()
 
-\method{.gmessage}{guiWidgetsToolkitRGtk2}(toolkit, msg, title = "message",
-  icon = c("info", "warning", "error", "question"), parent = NULL, ...)
+\method{.gmessage}{guiWidgetsToolkitRGtk2}(toolkit, msg,
+  title = "message", icon = c("info", "warning", "error", "question"),
+  parent = NULL, ...)
 
-\method{.gconfirm}{guiWidgetsToolkitRGtk2}(toolkit, msg, title = "Confirm",
-  icon = c("info", "warning", "error", "question"), parent = NULL, ...)
+\method{.gconfirm}{guiWidgetsToolkitRGtk2}(toolkit, msg,
+  title = "Confirm", icon = c("info", "warning", "error", "question"),
+  parent = NULL, ...)
 
 \method{.ginput}{guiWidgetsToolkitRGtk2}(toolkit, msg, text = "",
   title = "Input", icon = c("info", "warning", "error", "question"),
   parent = NULL, ...)
 
 \method{.gbasicdialog}{guiWidgetsToolkitRGtk2}(toolkit, title = "Dialog",
-  parent = NULL, do.buttons = TRUE, handler = NULL, action = NULL, ...)
+  parent = NULL, do.buttons = TRUE, handler = NULL, action = NULL,
+  ...)
 
 \method{.galert}{guiWidgetsToolkitRGtk2}(toolkit, msg, title = "message",
   delay = 3, parent = NULL, ...)
@@ -91,27 +94,28 @@
   format = "\%Y-\%m-\%d", handler = NULL, action = NULL,
   container = NULL, ...)
 
-\method{.gcheckbox}{guiWidgetsToolkitRGtk2}(toolkit, text, checked = FALSE,
-  use.togglebutton = FALSE, handler = NULL, action = NULL,
-  container = NULL, ...)
+\method{.gcheckbox}{guiWidgetsToolkitRGtk2}(toolkit, text,
+  checked = FALSE, use.togglebutton = FALSE, handler = NULL,
+  action = NULL, container = NULL, ...)
 
 \method{.gcheckboxgroup}{guiWidgetsToolkitRGtk2}(toolkit = NULL, items,
   checked = FALSE, horizontal = FALSE, use.table = FALSE,
   handler = NULL, action = NULL, container = NULL, ...)
 
 \method{.gcombobox}{guiWidgetsToolkitRGtk2}(toolkit, items, selected = 1,
-  editable = FALSE, coerce.with = NULL, handler = NULL, action = NULL,
-  container = NULL, ...)
-
-\method{.gtable}{guiWidgetsToolkitRGtk2}(toolkit, items, multiple = FALSE,
-  chosen.col = 1, icon.col = NULL, tooltip.col = NULL, handler = NULL,
+  editable = FALSE, coerce.with = NULL, handler = NULL,
   action = NULL, container = NULL, ...)
+
+\method{.gtable}{guiWidgetsToolkitRGtk2}(toolkit, items,
+  multiple = FALSE, chosen.col = 1, icon.col = NULL,
+  tooltip.col = NULL, handler = NULL, action = NULL,
+  container = NULL, ...)
 
 \method{.gmenu}{guiWidgetsToolkitRGtk2}(toolkit, menu.list = list(),
   popup = FALSE, container = NULL, ...)
 
-\method{.gdf}{guiWidgetsToolkitRGtk2}(toolkit, items = NULL, handler = NULL,
-  action = NULL, container = NULL, ...)
+\method{.gdf}{guiWidgetsToolkitRGtk2}(toolkit, items = NULL,
+  handler = NULL, action = NULL, container = NULL, ...)
 
 \method{.gedit}{guiWidgetsToolkitRGtk2}(toolkit, text = "", width = 25,
   coerce.with = NULL, initial.msg = initial.msg, handler = NULL,
@@ -124,32 +128,32 @@
   horizontal = TRUE, spacing = 5, container = NULL, ...)
 
 \method{.gexpandgroup}{guiWidgetsToolkitRGtk2}(toolkit, text, markup,
-  horizontal = TRUE, handler = NULL, action = NULL, container = NULL,
-  ...)
+  horizontal = TRUE, handler = NULL, action = NULL,
+  container = NULL, ...)
 
-\method{.gfile}{guiWidgetsToolkitRGtk2}(toolkit, text = "", type = c("open",
-  "save", "selectdir"), initial.filename = NULL, initial.dir = getwd(),
-  filter = list(), multi = FALSE, ...)
+\method{.gfile}{guiWidgetsToolkitRGtk2}(toolkit, text = "",
+  type = c("open", "save", "selectdir"), initial.filename = NULL,
+  initial.dir = getwd(), filter = list(), multi = FALSE, ...)
 
 \method{.gfilebrowse}{guiWidgetsToolkitRGtk2}(toolkit, text = "",
   type = c("open", "save", "selectdir"), initial.filename = NULL,
-  initial.dir = getwd(), filter = list(), quote = TRUE, handler = NULL,
-  action = NULL, container = NULL, ...)
+  initial.dir = getwd(), filter = list(), quote = TRUE,
+  handler = NULL, action = NULL, container = NULL, ...)
 
 \method{.gformlayout}{guiWidgetsToolkitRGtk2}(toolkit, align = "left",
   spacing = 5, container = NULL, ...)
 
 \method{.ggraphics}{guiWidgetsToolkitRGtk2}(toolkit, width = dpi * 6,
-  height = dpi * 6, dpi = 75, ps = 12, handler = NULL, action = NULL,
-  container = NULL, ...)
+  height = dpi * 6, dpi = 75, ps = 12, handler = NULL,
+  action = NULL, container = NULL, ...)
 
 \method{.gimage}{guiWidgetsToolkitRGtk2}(toolkit, filename = "",
   dirname = "", stock.id = NULL, size = "", handler = NULL,
   action = NULL, container = NULL, ...)
 
-\method{.glabel}{guiWidgetsToolkitRGtk2}(toolkit, text = "", markup = FALSE,
-  editable = FALSE, handler = NULL, action = NULL, container = NULL,
-  ...)
+\method{.glabel}{guiWidgetsToolkitRGtk2}(toolkit, text = "",
+  markup = FALSE, editable = FALSE, handler = NULL, action = NULL,
+  container = NULL, ...)
 
 \method{.glayout}{guiWidgetsToolkitRGtk2}(toolkit, homogeneous = FALSE,
   spacing = 10, container = NULL, ...)
@@ -160,11 +164,12 @@
 \method{.gpanedgroup}{guiWidgetsToolkitRGtk2}(toolkit, horizontal = TRUE,
   container = NULL, ...)
 
-\method{.gprogressbar}{guiWidgetsToolkitRGtk2}(toolkit, value, container, ...)
+\method{.gprogressbar}{guiWidgetsToolkitRGtk2}(toolkit, value, container,
+  ...)
 
 \method{.gradio}{guiWidgetsToolkitRGtk2}(toolkit, items, selected = 1,
-  horizontal = FALSE, handler = NULL, action = NULL, container = NULL,
-  ...)
+  horizontal = FALSE, handler = NULL, action = NULL,
+  container = NULL, ...)
 
 \method{.gseparator}{guiWidgetsToolkitRGtk2}(toolkit, horizontal = TRUE,
   container = NULL, ...)
@@ -173,38 +178,40 @@
   by = 1, value = from, horizontal = TRUE, handler = NULL,
   action = NULL, container = NULL, ...)
 
-\method{.gspinbutton}{guiWidgetsToolkitRGtk2}(toolkit, from = 0, to = 10,
-  by = 1, value = from, digits = 0, handler = NULL, action = NULL,
-  container = NULL, ...)
+\method{.gspinbutton}{guiWidgetsToolkitRGtk2}(toolkit, from = 0,
+  to = 10, by = 1, value = from, digits = 0, handler = NULL,
+  action = NULL, container = NULL, ...)
 
-\method{.gstackwidget}{guiWidgetsToolkitRGtk2}(toolkit, container = NULL, ...)
+\method{.gstackwidget}{guiWidgetsToolkitRGtk2}(toolkit, container = NULL,
+  ...)
 
 \method{.gstatusbar}{guiWidgetsToolkitRGtk2}(toolkit, text = "",
   container = NULL, ...)
 
-\method{.gtext}{guiWidgetsToolkitRGtk2}(toolkit, text = NULL, width = NULL,
-  height = 300, font.attr = NULL, wrap = TRUE, handler = NULL,
-  action = NULL, container = NULL, ...)
+\method{.gtext}{guiWidgetsToolkitRGtk2}(toolkit, text = NULL,
+  width = NULL, height = 300, font.attr = NULL, wrap = TRUE,
+  handler = NULL, action = NULL, container = NULL, ...)
 
 \method{.gtimer}{guiWidgetsToolkitRGtk2}(toolkit, ms, FUN, data = NULL,
   one.shot = FALSE, start = TRUE)
 
-\method{.gtoolbar}{guiWidgetsToolkitRGtk2}(toolkit, toolbar.list = list(),
-  style = c("both", "icons", "text", "both-horiz"), container = NULL, ...)
+\method{.gtoolbar}{guiWidgetsToolkitRGtk2}(toolkit,
+  toolbar.list = list(), style = c("both", "icons", "text",
+  "both-horiz"), container = NULL, ...)
 
 \method{.gtree}{guiWidgetsToolkitRGtk2}(toolkit, offspring = NULL,
   offspring.data = NULL, chosen.col = 1, offspring.col = 2,
-  icon.col = NULL, tooltip.col = NULL, multiple = FALSE, handler = NULL,
-  action = NULL, container = NULL, ...)
+  icon.col = NULL, tooltip.col = NULL, multiple = FALSE,
+  handler = NULL, action = NULL, container = NULL, ...)
 
 \method{.gvarbrowser}{guiWidgetsToolkitRGtk2}(toolkit, handler = NULL,
   action = "summary", container = NULL, ...)
 
-\method{.gwindow}{guiWidgetsToolkitRGtk2}(toolkit, title, visible = visible,
-  name, width, height, parent, handler, action, ...)
+\method{.gwindow}{guiWidgetsToolkitRGtk2}(toolkit, title,
+  visible = visible, name, width, height, parent, handler, action, ...)
 
-\method{.addStockIcons}{guiWidgetsToolkitRGtk2}(toolkit, iconNames, iconFiles,
-  ...)
+\method{.addStockIcons}{guiWidgetsToolkitRGtk2}(toolkit, iconNames,
+  iconFiles, ...)
 
 \method{.getStockIcons}{guiWidgetsToolkitRGtk2}(toolkit, ...)
 
@@ -364,104 +371,10 @@ addToGtkStockIcons(iconNames, iconFiles)
 \item{iconFiles}{undocumented argument, cf. gWidgets2 documentation.}
 }
 \description{
-method for stopping getWidget
-
-S3 method for stopping getBlock
-
 The \code{gWidgets} separation of API from toolkit requires the
 exporting of "dot" functions from each toolkit package. These are
 not documented, as they mirror the definition in the API package,
 but must be to get pass R's package check. Hence this stub.
-
-toolkit implementation for gmessage
-
-toolkit implementation for gconfirm
-
-toolkit implmentation of ginput
-
-toolkit implementation
-
-toolkit implementation of galert
-
-Toolkit constructor
-
-toolkit constructor
-
-Toolkit constructor
-
-Toolkit XXX constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit gedit constructor
-
-toolkit constructor for ggroup
-
-gframe constructor
-
-toolkit constructor
-
-Toolkit implementation
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit label constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit  constructor
-
-Toolkit  constructor
-
-Toolkit constructor
-
-Toolkit  constructor
-
-Toolkit XXX constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-toolkit implementation
-
-S3 method for gtimer
-
-Toolkit constructor
-
-Toolkit constructor
-
-Toolkit constructor
-
-toolkit constructor for gwindow
-
-add stock icons
-
-Returns list of stock ids
-
-return stock id
-
-helper function
-
-return stock id from object
 }
 \seealso{
 The documentation for this is found at \code{\link{gbutton}}.

@@ -61,4 +61,4 @@ Collate:
     'gwindow.R'
     'icons.R'
     'startup.R'
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
